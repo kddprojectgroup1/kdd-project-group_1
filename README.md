@@ -14,8 +14,10 @@ Team Members:
 
 5. Koushik
 
-Project Title: Predictions and Analyzing New York City Airbnb Data.
+Project Title:
+Predictions and Analyzing New York City Airbnb Data.
 ==
+
 
 
 Project Description: 
