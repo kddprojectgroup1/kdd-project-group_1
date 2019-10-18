@@ -23,15 +23,12 @@ Data and Source Description:
 Dataset Link: https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data/kernels 
 The metrics in the dataset for exploration, visualizations and predictions are:
 
-1. id-listing ID
-2. name- name of the listing
-3. host_id- host ID
-
-4. host_namename of the host
-
-5.neighbourhood_grouplocation
-
-6.neighbourhoodarea
+* id-listing ID
+* name- name of the listing
+* host_id- host ID
+* host_namename of the host
+* neighbourhood_grouplocation
+* neighbourhoodarea
 
 7.latitudelatitude coordinates
 8.longitudelongitude coordinates
