@@ -26,9 +26,13 @@ The metrics in the dataset for exploration, visualizations and predictions are:
 1. id-listing ID
 2. name- name of the listing
 3. host_id- host ID
+
 4. host_namename of the host
+
 5.neighbourhood_grouplocation
+
 6.neighbourhoodarea
+
 7.latitudelatitude coordinates
 8.longitudelongitude coordinates
 9.room_typelisting space type
