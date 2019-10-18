@@ -18,5 +18,7 @@ Project Description:
 
 The project focuses on predicting and analyzing the ratings of customers, hosts of Airbnb's and summarizing useful insights of Airbnb's location and price based on features in the dataset.
 
-DATASET:
- New York City Airbnb Data ( https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data/kernels )
+Data and Source Description:
+
+Dataset Link: https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data/kernels 
+
