@@ -48,10 +48,11 @@ As Airbnb moves towards becoming an end-to-end travel platform, it is increasing
 
 For example, 
 
-*what are the most popular landmarks and neighborhoods in New York for a reasonable price?  
-*Which Airbnb listings are best for families? 
-* What is the most affordable time of year to visit New York? 
-*What are the type of reviews about an Airbnb and How are the ratings for a particular host of an Airbnb? 
+* what are the most popular landmarks and neighborhoods in New York for a reasonable price?  
+* Which Airbnb listings are best for families? 
+* What is the most affordable time of year to visit New York?
+* What are the type of reviews about an Airbnb and How are the ratings for a particular host of an Airbnb? 
+
 All of this content and context is helpful for vacation planners, and the more accurate, useful travel information we can provide, the more our users will trust us.
 
 To scale our ability to answer these travel queries, we needed a systematic approach to storing and serving high-quality information about entities (e.g. ratings, cities, landmarks, events, etc.) and the relationships between them (e.g. the most popular landmark in a city for a reasonable price, the best neighbourhood, etc.).
