@@ -29,6 +29,7 @@ Data and Source Description:
 
 
 Dataset Link: https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data/kernels 
+
 The metrics in the dataset for exploration, visualizations and predictions are:
 
 * id-listing ID
@@ -49,8 +50,12 @@ The metrics in the dataset for exploration, visualizations and predictions are:
 * availability_365- number of days when listing is available for booking
 
 CRISP-DM Process:
+==
+
 
 1.Business/Research Understanding Phase : 
+==
+
 
 As Airbnb moves towards becoming an end-to-end travel platform, it is increasingly important for us to deliver travel insights that help people decide when to travel, where to go, and what to do on their trips. 
 
