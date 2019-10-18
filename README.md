@@ -29,17 +29,16 @@ The metrics in the dataset for exploration, visualizations and predictions are:
 * host_namename of the host
 * neighbourhood_grouplocation
 * neighbourhoodarea
-
-7.latitudelatitude coordinates
-8.longitudelongitude coordinates
-9.room_typelisting space type
-10.priceprice in dollars
-11.minimum_nightsamount of nights minimum
-12.number_of_reviewsnumber of reviews
-13.last_reviewlatest review
-14.reviews_per_monthnumber of reviews per month
-15.calculated_host_listings_countamount of listing per host16.
-16.availability_365number of days when listing is available for booking
+* latitudelatitude coordinates
+* longitudelongitude coordinates
+* room_typelisting space type
+* priceprice in dollars
+* minimum_nightsamount of nights minimum
+* number_of_reviewsnumber of reviews
+* last_reviewlatest review
+* reviews_per_monthnumber of reviews per month
+* calculated_host_listings_countamount of listing per host16.
+* availability_365number of days when listing is available for booking
 
 CRISP-DM Process:
 
