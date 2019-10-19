@@ -4,15 +4,15 @@ Team Name: WeFive_HighFive
 
 Team Members:
 
-1. Akhil
+1. Akhil Chundarathil
 
-2. Akhila
+2. Akhila Vemana
 
 3. Akshara Gone
 
 4. Keerthi Reddy Kandi
 
-5. Koushik
+5. Koushik Koritala
 
 Project Title:
 Predictions and Analyzing New York City Airbnb Data.
