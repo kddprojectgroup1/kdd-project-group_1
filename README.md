@@ -23,7 +23,7 @@ Project Description:
 ==
 
 
-The project focuses on predicting and analyzing the ratings of customers, hosts of Airbnb's and summarizing useful insights of Airbnb's location of reasonable price based on features in the dataset.
+The project focuses on predicting and analyzing the ratings of customers, hosts of Airbnb's and summarizing useful insights of Airbnb's location which are of reasonable price based on features in the dataset.
 
 Data and Source Description:
 ==
