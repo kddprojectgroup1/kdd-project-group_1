@@ -79,7 +79,13 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 * First is to do data preprocessing. It has handling the missing data by imputation techniques, selecting the features for exploration and visualizations(In this dataset we are dropping some features which are not required for further steps).
 * Included new "ratings" column for both customers and hosts based on the description of Airbnb and reviews by customers and using other features.
 * Next in Data Exploration, we use the preprocessed data to get useful insights from visualizations and predictions.
-* 
+
+3.Data Preparation:
+==
+
+
+
+
 
 
 
