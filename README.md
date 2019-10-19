@@ -85,6 +85,28 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 
 Preparing the data for modelling in the further process. If needed planning to do the transformations on some of the features in the dataset.
 
+4.Machine Learning:
+==
+
+In the modelling phase, planning to do the following modelling techniques and compare the models, select the best approproiate model for the datset.
+
+* Classification: Naive Bayes(NB), Support Vector Machines(SVM)
+* Clustering: K-Nearest Neighbours(KNN)
+* Regression: Logistic regression
+* Dividing the dataset into train and test data and further making fit and transform to the data
+
+5.Evaluation:
+==
+
+For the Evaluation, we use some of the metrics like
+
+* ROC curve
+* AUC value
+* Accuracy, Precision and Recall
+
+
+
+
 
 
 
