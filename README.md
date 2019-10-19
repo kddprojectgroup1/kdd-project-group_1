@@ -83,6 +83,9 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 3.Data Preparation:
 ==
 
+Preparing the data for modelling in the further process. If needed planning to do the transformations on some of the features in the dataset.
+
+
 
 
 
