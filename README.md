@@ -102,6 +102,7 @@ For the Evaluation, we use some of the metrics like
 
 * ROC curve
 * AUC value
+* Confusion matrix
 * Accuracy, Precision and Recall
 
 
