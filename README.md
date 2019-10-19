@@ -72,8 +72,14 @@ All of this content and context is helpful for vacation planners, and the more a
 
 To scale our ability to answer these travel queries, we needed a systematic approach to storing and serving high-quality information about entities (e.g. ratings, cities, landmarks, events, etc.) and the relationships between them (e.g. the most popular landmark in a city for a reasonable price, the best neighbourhood, etc.)
 
-2. Data Understanding and EDA:
+2.Data Understanding and EDA:
 ==
+
+* After importing the dataset, we perform exploratory data analysis.
+* First is to do data preprocessing. It has handling the missing data by imputation techniques, selecting the features for exploration and visualizations(In this dataset we are dropping some features which are not required for further steps).
+* Included new "ratings" column for both customers and hosts based on the description of Airbnb and reviews by customers and using other features.
+* Next in Data Exploration, we use the preprocessed data to get useful insights from visualizations and predictions.
+* 
 
 
 
