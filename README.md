@@ -105,6 +105,11 @@ For the Evaluation, we use some of the metrics like
 * Confusion matrix
 * Accuracy, Precision and Recall
 
+6.Conclusion:
+==
+
+Finally from the dataset we acheive useful insights based on pre-defined objectives.
+
 
 
 
