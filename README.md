@@ -14,7 +14,7 @@ Team Members:
 
 5. Koushik Koritala
 
-Project Title: Predictions and Analyzing New York City Airbnb Data.
+Project Title: Mining and Modelling NYC Airbnb Data.
 ==
 
 
