@@ -13,7 +13,7 @@ Team Members:
 
 5. Koushik Koritala
 
-#### Project Title: Mining and Modelling NYC Airbnb Data.
+# Project Title: Mining and Modelling NYC Airbnb Data.
 
 
 
@@ -44,7 +44,7 @@ The dataset has the following attributes :
 * reviews_per_month
 * calculated_host_listings_count
 * availability_365
-* Rating ( 1-5 : 1- Lowest, 5- Highest ) - Not included in dataset, added this target variable during the data preparation phase.
+* RATINGS ( 1-5 : 1- Lowest, 5- Highest ) - Not included in dataset, added this target variable during the data preparation phase.
 
 ## CRISP-DM Process:
 
