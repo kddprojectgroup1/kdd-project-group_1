@@ -23,7 +23,7 @@ Project Objective:
 ==
 
 
-The project focuses on analysing the NYC Airbnb data and to predict the ratings of Airbnb based on customer's experience, location, price range, nights of stay and other related features. 
+The project focuses on analysing the NYC Airbnb data and to predict the ratings of Airbnb based on guests experience, location, price range, nights of stay and other related features. 
 
 Data and Source Description:
 ==
@@ -49,6 +49,7 @@ The metrics in the dataset for exploration, visualizations and predictions are:
 * reviews_per_month- number of reviews per month
 * calculated_host_listings_count- amount of listing per host16.
 * availability_365- number of days when listing is available for booking
+* Rating ( 1-5 )
 
 CRISP-DM Process:
 ==
