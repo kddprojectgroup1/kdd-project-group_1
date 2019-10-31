@@ -58,6 +58,7 @@ CRISP-DM Process:
 1.Business/Research Understanding Phase : 
 ==
 
+Domain Knowledge: https://medium.com/airbnb-engineering/contextualizing-airbnb-by-building-knowledge-graph-b7077e268d5a
 
 As Airbnb moves towards becoming an end-to-end travel platform, it is increasingly important for us to deliver travel insights that help people decide when to travel, where to go, and what to do on their trips. 
 
