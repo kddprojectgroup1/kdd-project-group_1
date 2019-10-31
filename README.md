@@ -67,9 +67,11 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 
 ## 2.EDA and Data Preparation:
 
+
+* A new "ratings" column is added based on the Airbnb location(neighbourhood), price, reviews and days of availability.
+(**Domain Knowledge** : https://www.airbnb.com/help/article/1257/how-do-star-ratings-work 
+
 * Imputation techniques performed to handle missing values.
-* A new "ratings" column is added based on the Airbnb location(neighbourhood), price and days of availability.
-(**Domain Knowledge** : https://www.airbnb.com/help/article/1257/how-do-star-ratings-work )
 * Based on the statistical information of the dataset the Outliers are removed. 
 * Feature Scaling on some of the attributes are performed.
 * Dropped some of the features which are not required for further phases.
