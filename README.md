@@ -44,7 +44,7 @@ The dataset has the following attributes :
 * reviews_per_month
 * calculated_host_listings_count
 * availability_365
-* RATINGS ( 1-5 : 1- Lowest, 5- Highest ) - Not included in dataset, added this target variable during the data preparation phase.
+* RATINGS ( 1-5 : 1- Lowest, 5- Highest ) - Not included in dataset, this target variable is added during the data preparation phase.
 
 ## CRISP-DM Process:
 
@@ -68,7 +68,8 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 ## 2.EDA and Data Preparation:
 
 * Imputation techniques performed to handle missing values.
-* A new "ratings" column is added based on the neighbourhood group, price and days of availability of the airbnb.
+* A new "ratings" column is added based on the Airbnb location(neighbourhood), price and days of availability.
+(**Domain Knowledge** : https://www.airbnb.com/help/article/1257/how-do-star-ratings-work )
 * Based on the statistical information of the dataset the Outliers are removed. 
 * Feature Scaling on some of the attributes are performed.
 * Dropped some of the features which are not required for further phases.
