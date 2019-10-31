@@ -20,11 +20,9 @@ Team Members:
 ## Project Objective: 
 
 
-The project focuses on analysing the NYC Airbnb data and to predict the ratings of Airbnb based on their location, price range, guests experience(reviews) other related features. 
+The project focuses on analysing the NYC Airbnb to predict the ratings of Airbnb based on their location, price range, guests experience (reviews) and other related features. 
 
 ## Data and Source Description:
-
-
 
 Dataset Link: https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data/kernels 
 
@@ -49,7 +47,6 @@ The dataset has the following attributes :
 * Rating ( 1-5 : 1- Lowest, 5- Highest ) - Not included in dataset, added this target variable during the data preparation phase.
 
 ## CRISP-DM Process:
-
 
 
 ## 1.Business/Research Understanding Phase : 
@@ -79,7 +76,7 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 
 ## 3.Machine Learning:
 
-In the modelling phase, based on dataset we use and compare the models, select the best approproiate model for the datset.
+For modelling, based on the dataset we use:
 
 * Classification: Naive Bayes(NB) to predict the probability of guests choosing the Airbnb given its location, price, ratings.
 * Clustering: K-Nearest Neighbours(KNN) to know about which locations in NYC is popular for Airbnb's considering price, ratings.
