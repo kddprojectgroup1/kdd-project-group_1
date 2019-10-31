@@ -71,20 +71,15 @@ All of this content and context is helpful for vacation planners, and the more a
 
 To scale our ability to answer these travel queries, we needed a systematic approach to storing and serving high-quality information about entities (e.g. ratings, cities, landmarks, events, etc.) and the relationships between them (e.g. the most popular landmark in a city for a reasonable price, the best neighbourhood to stay, etc.)
 
-2.Data Understanding and EDA:
+2.EDA and Data Preparation:
 ==
 
+* Imputation techniques performed to handle missing values.
 * A new "ratings" column is included for the hosts based on the neighbourhood group, price and days of availability of the airbnb.
-* Dropped some features which are not required for EDA and visualizations.
-* The missing values are checked and then imputation techniques are performed to fill the missing values.
-* Based on the statistical information of the dataset the Outliers are removed.
-* Feature Scaling on some of the attributes are performed 
+* Based on the statistical information of the dataset the Outliers are removed. 
+* Feature Scaling on some of the attributes are performed.
+* Dropped some of the features which are not required for further phases.
 * Next in Data Exploration, we get useful insights by visualizing different types of graphs plotted.
-
-3.Data Preparation:
-==
-
-Preparing the data for modelling in the further process.
 
 4.Machine Learning:
 ==
