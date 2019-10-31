@@ -19,11 +19,11 @@ Project Title: Mining and Modelling NYC Airbnb Data.
 
 
 
-Project Description: 
+Project Objective: 
 ==
 
 
-The project focuses on predicting and analyzing the ratings of customers, hosts of Airbnb's and summarizing useful insights of Airbnb's location which are of reasonable price based on features in the dataset.
+The project focuses on analysing the NYC Airbnb data and to predict the ratings of Airbnb based on customer's experience, location, price range, nights of stay and other related features. 
 
 Data and Source Description:
 ==
@@ -74,15 +74,17 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 2.Data Understanding and EDA:
 ==
 
-* After importing the dataset, we perform exploratory data analysis.
-* First is to do data preprocessing. It has handling the missing data by imputation techniques, selecting the features for exploration and visualizations(In this dataset we are dropping some features which are not required for further steps).
-* Included new "ratings" column for both customers and hosts based on the description of Airbnb and reviews by customers and using other features.
-* Next in Data Exploration, we use the preprocessed data to get useful insights from visualizations and predictions.
+* After importing the dataset, Exploratory Data Analysis is performed.
+* In this dataset we first dropped some features which are not required for EDA and prediction.
+* The missing values are checked and then imputation techniques are performed to fill the missing values.
+* Based on the statistical information of the dataset the Outliers are removed.
+* A new "ratings" column is included for the hosts based on the neighbourhood group, price and days of availability of the airbnb.
+* Next in Data Exploration, we get useful insights by visualizing different types of graphs plotted.
 
 3.Data Preparation:
 ==
 
-Preparing the data for modelling in the further process. If needed planning to do the transformations on some of the features in the dataset.
+Preparing the data for modelling in the further process. If needed planning to do the transformations on some of the features in the dataset. 
 
 4.Machine Learning:
 ==
