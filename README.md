@@ -1,5 +1,4 @@
-KDD WeFive_HighFive (Group 1)
-==
+## KDD WeFive_HighFive (Group 1)
 
 
 Team Members:
@@ -14,8 +13,7 @@ Team Members:
 
 5. Koushik Koritala
 
-Project Title: Mining and Modelling NYC Airbnb Data.
-==
+### Project Title: Mining and Modelling NYC Airbnb Data.
 
 
 
