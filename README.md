@@ -13,14 +13,14 @@ Team Members:
 
 5. Koushik Koritala
 
-# Project Title: Mining and Modelling NYC Airbnb Data.
+# Project Title: Mining and Modeling NYC Airbnb Data.
 
 
 
 ### Project Objective: 
 
 
-The project focuses on analysing the NYC Airbnb to predict the ratings of Airbnb based on their location, price range, guests experience (reviews) and other related features. 
+The project focuses on analyzing NYC Airbnb to predict the ratings of Airbnb based on their location, price range, guests experience (reviews) and other related features. 
 
 ### Data and Source Description:
 
@@ -61,14 +61,14 @@ For example,
 * Which Airbnb listings are best for families? 
 * What are the type of reviews about an Airbnb? 
 
-All of this content and context is helpful for vacation planners, and the more accurate, useful travel information we can provide, the more our users will trust us.
+All of this content and context are helpful for vacation planners, and the more accurate, useful travel information we can provide, the more our users will trust us.
 
 To scale our ability to answer these travel queries, we needed a systematic approach to storing and serving high-quality information about entities (e.g. ratings, cities, landmarks, events, etc.) and the relationships between them (e.g. the most popular landmark in a city for a reasonable price, the best neighbourhood to stay, etc.)
 
 ### 2.EDA and Data Preparation:
 
 
-* A new "ratings" column is added based on the Airbnb location(neighbourhood), price, reviews and days of availability.
+* A new "ratings" column is added based on the Airbnb location(neighborhood), price, reviews and days of availability.
 (**Domain Knowledge** : https://www.airbnb.com/help/article/1257/how-do-star-ratings-work 
 
 * Imputation techniques performed to handle missing values.
@@ -79,19 +79,19 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 
 ### 3.Machine Learning:
 
-For modelling, based on the dataset we use:
+For modeling, based on the dataset we use:
 
 * Classification: Naive Bayes(NB) to predict the probability of guests choosing the Airbnb given its location, price, ratings.
-* Clustering: K-Nearest Neighbours(KNN) to know about which locations in NYC is popular for Airbnb's considering price, ratings.
-* Regression: Linear regression(TF-IDF) to recommend Airbnb to guests by training and testing, based on their selection of features. 
+* Clustering: K-Nearest Neighbours(KNN) to know about which locations in NYC are popular for Airbnb's considering price, ratings.
+* Regression: Linear regression(TF-IDF) to recommend Airbnb to guests by training and testing, considering the features chosen. 
 
 ### 4.Evaluation:
 
-For the performance evaluation, based on the modelling done we use the metrics ROC curve, AUC value and Confusion matrix.
+For the performance evaluation, based on the modeling is done we use the metrics ROC curve, AUC value, and Confusion matrix.
 
 ### 5.Conclusion:
 
-Finally, we acheive useful insights from the model built based on pre-defined objectives.
+Finally, we achieve useful insights from the model built based on pre-defined objectives.
 
 
 
