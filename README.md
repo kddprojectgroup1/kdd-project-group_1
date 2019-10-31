@@ -44,7 +44,7 @@ The dataset has the following attributes :
 * reviews_per_month
 * calculated_host_listings_count
 * availability_365
-* RATINGS ( 1-5 : 1- Lowest, 5- Highest ) - Not included in dataset, this target variable is added during the data preparation phase.
+* RATINGS ( 1-5 : 1- Lowest, 5- Highest ).This column is not included in dataset, this target variable is added during the data preparation phase.
 
 ### CRISP-DM Process:
 
