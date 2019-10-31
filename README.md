@@ -23,7 +23,7 @@ Project Objective:
 ==
 
 
-The project focuses on analysing the NYC Airbnb data and to predict the ratings of Airbnb based on guests experience, location, price range, nights of stay and other related features. 
+The project focuses on analysing the NYC Airbnb data and to predict the ratings of Airbnb based on their location, price range, guests experience other related features. 
 
 Data and Source Description:
 ==
@@ -33,23 +33,23 @@ Dataset Link: https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data/ker
 
 The metrics in the dataset for exploration, visualizations and predictions are:
 
-* id-listing ID
-* name- name of the listing
-* host_id- host ID
-* host_name- name of the host
-* neighbourhood_group- location
-* neighbourhood- area
-* latitude- latitude coordinates
-* longitude- longitude coordinates
-* room_type- listing space type
-* price- price in dollars
-* minimum_nights- amount of nights minimum
-* number_of_reviews- number of reviews
-* last_review- latest review
-* reviews_per_month- number of reviews per month
-* calculated_host_listings_count- amount of listing per host16.
-* availability_365- number of days when listing is available for booking
-* Rating ( 1-5 )
+* id
+* name
+* host_id
+* host_name
+* neighbourhood_group
+* neighbourhood
+* latitude
+* longitude
+* room_type
+* price
+* minimum_nights
+* number_of_reviews
+* last_review
+* reviews_per_month
+* calculated_host_listings_count
+* availability_365
+* Rating ( 1-5 : 1-Lowest,5-Highest )
 
 CRISP-DM Process:
 ==
