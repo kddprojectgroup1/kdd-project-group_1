@@ -75,42 +75,42 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 2.Data Understanding and EDA:
 ==
 
-* After importing the dataset, Exploratory Data Analysis is performed.
-* In this dataset we first dropped some features which are not required for EDA and prediction.
+* A new "ratings" column is included for the hosts based on the neighbourhood group, price and days of availability of the airbnb.
+* Dropped some features which are not required for EDA and visualizations.
 * The missing values are checked and then imputation techniques are performed to fill the missing values.
 * Based on the statistical information of the dataset the Outliers are removed.
-* A new "ratings" column is included for the hosts based on the neighbourhood group, price and days of availability of the airbnb.
+* Feature Scaling performed 
 * Next in Data Exploration, we get useful insights by visualizing different types of graphs plotted.
 
 3.Data Preparation:
 ==
 
-Preparing the data for modelling in the further process. If needed planning to do the transformations on some of the features in the dataset. 
+Preparing the data for modelling in the further process.
 
 4.Machine Learning:
 ==
 
-In the modelling phase, planning to do the following modelling techniques and compare the models, select the best approproiate model for the datset.
+In the modelling phase, based on dataset we use and compare the models, select the best approproiate model for the datset.
 
-* Classification: Naive Bayes(NB), Support Vector Machines(SVM)
-* Clustering: K-Nearest Neighbours(KNN)
-* Regression: Logistic regression
-* Dividing the dataset into train and test data and further making fit and transform to the data
+* Classification: Naive Bayes(NB) to predict the probability of guests choosing the Airbnb given its location, price, ratings.
+* Clustering: K-Nearest Neighbours(KNN) to know about which locations in NYC is popular for Airbnb's considering price, ratings.
+* Regression: Linear regression(TF-IDF) to recommend Airbnb to guests by training and testing, based on their selection of features. 
+
 
 5.Evaluation:
 ==
 
-For the Evaluation, we use some of the metrics like
+For the Evaluation, we use the metrics like
 
 * ROC curve
 * AUC value
 * Confusion matrix
-* Accuracy, Precision and Recall
+
 
 6.Conclusion:
 ==
 
-Finally from the dataset we acheive useful insights based on pre-defined objectives.
+Finally, we acheive useful insights from the model built based on pre-defined objectives.
 
 
 
