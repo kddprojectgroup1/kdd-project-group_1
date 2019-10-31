@@ -65,12 +65,11 @@ For example,
 
 * what are the most popular landmarks and neighborhoods in New York for a reasonable price?  
 * Which Airbnb listings are best for families? 
-* What is the most affordable time of year to visit New York?
-* What are the type of reviews about an Airbnb and How are the ratings for a particular host of an Airbnb? 
+* What are the type of reviews about an Airbnb? 
 
 All of this content and context is helpful for vacation planners, and the more accurate, useful travel information we can provide, the more our users will trust us.
 
-To scale our ability to answer these travel queries, we needed a systematic approach to storing and serving high-quality information about entities (e.g. ratings, cities, landmarks, events, etc.) and the relationships between them (e.g. the most popular landmark in a city for a reasonable price, the best neighbourhood, etc.)
+To scale our ability to answer these travel queries, we needed a systematic approach to storing and serving high-quality information about entities (e.g. ratings, cities, landmarks, events, etc.) and the relationships between them (e.g. the most popular landmark in a city for a reasonable price, the best neighbourhood to stay, etc.)
 
 2.Data Understanding and EDA:
 ==
@@ -79,7 +78,7 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 * Dropped some features which are not required for EDA and visualizations.
 * The missing values are checked and then imputation techniques are performed to fill the missing values.
 * Based on the statistical information of the dataset the Outliers are removed.
-* Feature Scaling performed 
+* Feature Scaling on some of the attributes are performed 
 * Next in Data Exploration, we get useful insights by visualizing different types of graphs plotted.
 
 3.Data Preparation:
@@ -100,12 +99,7 @@ In the modelling phase, based on dataset we use and compare the models, select t
 5.Evaluation:
 ==
 
-For the Evaluation, we use the metrics like
-
-* ROC curve
-* AUC value
-* Confusion matrix
-
+For the performance evaluation, based on the modelling done we use the metrics ROC curve, AUC value and Confusion matrix.
 
 6.Conclusion:
 ==
