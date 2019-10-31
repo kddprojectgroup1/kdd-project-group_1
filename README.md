@@ -1,4 +1,4 @@
-## KDD WeFive_HighFive (Group 1)
+### KDD WeFive_HighFive (Group 1)
 
 
 Team Members:
@@ -17,12 +17,12 @@ Team Members:
 
 
 
-## Project Objective: 
+### Project Objective: 
 
 
 The project focuses on analysing the NYC Airbnb to predict the ratings of Airbnb based on their location, price range, guests experience (reviews) and other related features. 
 
-## Data and Source Description:
+### Data and Source Description:
 
 Dataset Link: https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data/kernels 
 
@@ -46,10 +46,10 @@ The dataset has the following attributes :
 * availability_365
 * RATINGS ( 1-5 : 1- Lowest, 5- Highest ) - Not included in dataset, this target variable is added during the data preparation phase.
 
-## CRISP-DM Process:
+### CRISP-DM Process:
 
 
-## 1.Business/Research Understanding Phase : 
+### 1.Business/Research Understanding Phase : 
 
 **Domain Knowledge**: https://medium.com/airbnb-engineering/contextualizing-airbnb-by-building-knowledge-graph-b7077e268d5a
 
@@ -65,7 +65,7 @@ All of this content and context is helpful for vacation planners, and the more a
 
 To scale our ability to answer these travel queries, we needed a systematic approach to storing and serving high-quality information about entities (e.g. ratings, cities, landmarks, events, etc.) and the relationships between them (e.g. the most popular landmark in a city for a reasonable price, the best neighbourhood to stay, etc.)
 
-## 2.EDA and Data Preparation:
+### 2.EDA and Data Preparation:
 
 
 * A new "ratings" column is added based on the Airbnb location(neighbourhood), price, reviews and days of availability.
@@ -77,7 +77,7 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 * Dropped some of the features which are not required for further phases.
 * Next in Data Exploration, we get useful insights by visualizing different types of graphs plotted (Insights are added as markdown in code).
 
-## 3.Machine Learning:
+### 3.Machine Learning:
 
 For modelling, based on the dataset we use:
 
@@ -85,11 +85,11 @@ For modelling, based on the dataset we use:
 * Clustering: K-Nearest Neighbours(KNN) to know about which locations in NYC is popular for Airbnb's considering price, ratings.
 * Regression: Linear regression(TF-IDF) to recommend Airbnb to guests by training and testing, based on their selection of features. 
 
-## 4.Evaluation:
+### 4.Evaluation:
 
 For the performance evaluation, based on the modelling done we use the metrics ROC curve, AUC value and Confusion matrix.
 
-## 5.Conclusion:
+### 5.Conclusion:
 
 Finally, we acheive useful insights from the model built based on pre-defined objectives.
 
