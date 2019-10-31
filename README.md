@@ -71,11 +71,11 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 ## 2.EDA and Data Preparation:
 
 * Imputation techniques performed to handle missing values.
-* A new "ratings" column is included for the hosts based on the neighbourhood group, price and days of availability of the airbnb.
+* A new "ratings" column is added based on the neighbourhood group, price and days of availability of the airbnb.
 * Based on the statistical information of the dataset the Outliers are removed. 
 * Feature Scaling on some of the attributes are performed.
 * Dropped some of the features which are not required for further phases.
-* Next in Data Exploration, we get useful insights by visualizing different types of graphs plotted.
+* Next in Data Exploration, we get useful insights by visualizing different types of graphs plotted (Insights are added as markdown in code).
 
 ## 3.Machine Learning:
 
@@ -85,14 +85,11 @@ In the modelling phase, based on dataset we use and compare the models, select t
 * Clustering: K-Nearest Neighbours(KNN) to know about which locations in NYC is popular for Airbnb's considering price, ratings.
 * Regression: Linear regression(TF-IDF) to recommend Airbnb to guests by training and testing, based on their selection of features. 
 
-
 ## 4.Evaluation:
-==
 
 For the performance evaluation, based on the modelling done we use the metrics ROC curve, AUC value and Confusion matrix.
 
 ## 5.Conclusion:
-==
 
 Finally, we acheive useful insights from the model built based on pre-defined objectives.
 
