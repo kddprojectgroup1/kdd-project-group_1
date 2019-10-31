@@ -13,18 +13,17 @@ Team Members:
 
 5. Koushik Koritala
 
-### Project Title: Mining and Modelling NYC Airbnb Data.
+#### Project Title: Mining and Modelling NYC Airbnb Data.
 
 
 
-Project Objective: 
-==
+## Project Objective: 
 
 
 The project focuses on analysing the NYC Airbnb data and to predict the ratings of Airbnb based on their location, price range, guests experience(reviews) other related features. 
 
-Data and Source Description:
-==
+## Data and Source Description:
+
 
 
 Dataset Link: https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data/kernels 
@@ -49,12 +48,11 @@ The dataset has the following attributes :
 * availability_365
 * Rating ( 1-5 : 1- Lowest, 5- Highest ) - Not included in dataset, added this target variable during the data preparation phase.
 
-CRISP-DM Process:
-==
+## CRISP-DM Process:
 
 
-1.Business/Research Understanding Phase : 
-==
+
+## 1.Business/Research Understanding Phase : 
 
 **Domain Knowledge**: https://medium.com/airbnb-engineering/contextualizing-airbnb-by-building-knowledge-graph-b7077e268d5a
 
@@ -70,8 +68,7 @@ All of this content and context is helpful for vacation planners, and the more a
 
 To scale our ability to answer these travel queries, we needed a systematic approach to storing and serving high-quality information about entities (e.g. ratings, cities, landmarks, events, etc.) and the relationships between them (e.g. the most popular landmark in a city for a reasonable price, the best neighbourhood to stay, etc.)
 
-2.EDA and Data Preparation:
-==
+## 2.EDA and Data Preparation:
 
 * Imputation techniques performed to handle missing values.
 * A new "ratings" column is included for the hosts based on the neighbourhood group, price and days of availability of the airbnb.
@@ -80,8 +77,7 @@ To scale our ability to answer these travel queries, we needed a systematic appr
 * Dropped some of the features which are not required for further phases.
 * Next in Data Exploration, we get useful insights by visualizing different types of graphs plotted.
 
-4.Machine Learning:
-==
+## 3.Machine Learning:
 
 In the modelling phase, based on dataset we use and compare the models, select the best approproiate model for the datset.
 
@@ -90,12 +86,12 @@ In the modelling phase, based on dataset we use and compare the models, select t
 * Regression: Linear regression(TF-IDF) to recommend Airbnb to guests by training and testing, based on their selection of features. 
 
 
-5.Evaluation:
+## 4.Evaluation:
 ==
 
 For the performance evaluation, based on the modelling done we use the metrics ROC curve, AUC value and Confusion matrix.
 
-6.Conclusion:
+## 5.Conclusion:
 ==
 
 Finally, we acheive useful insights from the model built based on pre-defined objectives.
