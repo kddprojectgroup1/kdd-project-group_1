@@ -90,7 +90,7 @@ For the performance evaluation, based on the modeling is done we use the metrics
 
 ### 5.Conclusion:
 
-Finally, we achieve useful insights from the model built based on pre-defined objectives.
+Finally, we achieve useful insights from the model built based on pre-defined objectives. Our model will suggest guests in choosing suitable AirBnb for their trip in New York City considering their requirements( Budget, location, Ambience etc.. )
 
 
 
