@@ -84,7 +84,7 @@ For modeling, based on the dataset we use:
 * Association : We will use apriori algorithm for finding association rules between the attributes in our dataset. apriori class from apriori library will be used to find out the association rules between selected attributes like location,price and rating. min_lift parameter is used as a measure in the generating the association rules.
 * Pipelining : We used pipeling for data preparation, feature extraction and modelling. Using normalization or standardization on the entire training dataset before learning would not be a valid test because the training dataset would have been influenced by the scale of the data in the test set. So we used pipelining to prevent this data leakage. We used FeatureUnion in pipeline which allows the results of multiple feature selection and extraction procedures to be combined into a larger dataset on which a model can be trained.
 * Ensembling : By combining individual models, the ensemble model tends to be more flexible(less bias) and less data-sensitive (less variance). In our project, We are planning to use Random forest Algorithm as an ensemble model using bagging as the ensemble method and decision tree as the individual model.
-* Regression: Linear regression(TF-IDF) to recommend Airbnb to guests by training and testing, considering the features chosen. 
+ 
 
 ### 4.Evaluation:
 
