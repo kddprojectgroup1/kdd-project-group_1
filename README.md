@@ -90,7 +90,12 @@ For modeling, based on the dataset we use:
 
 For the performance evaluation, based on the modeling is done we use the metrics ROC curve, AUC value, and Confusion matrix.
 
-### 5. Bias:
+### 5. Bias: 
+The common definition of data bias is that the available data is not representative of the population or phenomenon of study. Data bias occurs due to structural characteristics of the systems that produce the data. The huge success of applications of machine learning (ML) applications in the past decade — in image recognition, recommendation systems, e-commerce and online advertising — has inspired its adoption in domains such as social justice, employment screening, smart interactive interfaces such as Siri, Alexa, and the like. Along with the proliferation of these applications, there has been an alarming rise in reports of gender, race and other types of bias in these systems. 
+
+For example: females were associated with professions of nurse and nanny whereas males were associated with professions of doctor and financier.In another case Amazon tried to build an AI tool to screen candidates until management discovered that it had learned to penalize women candidates. The problem is that in most companies today, technical roles are filled by men and this bias creeps into any models that use current employee data to train models. Unless detected societal biases in data can lead to algorithmic that discriminate on gender, race and other categories.
+
+There is no bias in our dataset because of the absence of bias causing columns like gender,race etc. So there is no requirement for bias mitigation in our project.
 
 
 ### 6. Summary:
