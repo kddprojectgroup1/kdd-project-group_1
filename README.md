@@ -88,7 +88,7 @@ For modeling, based on the dataset we use:
 
 ### 4.Evaluation:
 
-For the performance evaluation, based on the modeling is done we use the metrics ROC curve, AUC value, and Confusion matrix.
+For the performance evaluation, we use the metrics R2 score for Ensembling method, cross_val_score for Pipelining.
 
 ### 5. Bias: 
 The common definition of data bias is that the available data is not representative of the population or phenomenon of study. Data bias occurs due to structural characteristics of the systems that produce the data. The huge success of applications of machine learning (ML) applications in the past decade — in image recognition, recommendation systems, e-commerce and online advertising — has inspired its adoption in domains such as social justice, employment screening, smart interactive interfaces such as Siri, Alexa, and the like. Along with the proliferation of these applications, there has been an alarming rise in reports of gender, race and other types of bias in these systems. 
