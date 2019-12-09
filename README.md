@@ -93,14 +93,42 @@ For the performance evaluation, based on the modeling is done we use the metrics
 ### 5. Bias: 
 The common definition of data bias is that the available data is not representative of the population or phenomenon of study. Data bias occurs due to structural characteristics of the systems that produce the data. The huge success of applications of machine learning (ML) applications in the past decade — in image recognition, recommendation systems, e-commerce and online advertising — has inspired its adoption in domains such as social justice, employment screening, smart interactive interfaces such as Siri, Alexa, and the like. Along with the proliferation of these applications, there has been an alarming rise in reports of gender, race and other types of bias in these systems. 
 
-For example: females were associated with professions of nurse and nanny whereas males were associated with professions of doctor and financier.In another case Amazon tried to build an AI tool to screen candidates until management discovered that it had learned to penalize women candidates. The problem is that in most companies today, technical roles are filled by men and this bias creeps into any models that use current employee data to train models. Unless detected societal biases in data can lead to algorithmic that discriminate on gender, race and other categories.
-
 There is no bias in our dataset because of the absence of bias causing columns like gender,race etc. So there is no requirement for bias mitigation in our project.
 
 
 ### 6. Summary:
 
-Finally, we achieve useful insights from the model built based on pre-defined objectives. Our model will suggest guests in choosing suitable AirBnb for their trip in New York City considering their requirements( Budget, location, Ambience etc.. )
+Our dataset is of Airbnb data which is an growing field. Every tourist now-a-days
+are likely to prefer Airbnb for their stay rather than hotels. So this is an on going
+trend. Our data is unique in terms of helping the users to quickly identify and get
+some useful insights about current Airbnb’s located in Newyork.
+
+<p>We cleaned and performed EDA on our dataset before performing modelling.
+Some of the original attributes were irrelevant, we performed dimensionality
+reduction and handled outliers by removing them, incase of missing values we
+used data imputation method of filling with relevant value, we did perform
+feature scaling for necessary attributes(reviews), handled some of original
+attributes which were of wrong data type by converting it to relevant data type.
+
+<p>There was no imbalance of data in our dataset, so we didn&#39;t perform related
+techniques to handle such imbalance. We created a new important feature
+“rating” by which customers get to know more about Airbnb. Based on others
+features like which neighbourhood the Airbnb is located, their price range, and
+their availability in a year.
+
+<p>Association rules, Ensembling technique, Pipelining(PCA , selectkbest,
+randomforest) modelling techniques are used to build our model. R2 score is used
+for ensembling, cross validation score is used for pipelining to evaluate our
+model.
+    
+<p>During the modelling phase, when we initially tried to do Random forest
+modelling we got a score of 0.45, to overcome this problem we performed
+“Gridsearchcv” on the random forest regressor model. This enhanced the score to
+0.71 which is optimal score and tells that our model is accurate.
+
+<p>Futurework: We have done our project on narrow scope like considered only one
+region in US i.e Newyork. This can be extended to perform globally considering all
+the regions in US and the different kinds of Airbnb’s.
 
 
 
